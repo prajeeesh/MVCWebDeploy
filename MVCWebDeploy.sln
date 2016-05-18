@@ -9,14 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking", "Banking\Banking.
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Automated_Build|Any CPU = Automated_Build|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{511661B9-637D-4519-925F-A6F12E598225}.Automated_Build|Any CPU.ActiveCfg = Automated_Build|Any CPU
+		{511661B9-637D-4519-925F-A6F12E598225}.Automated_Build|Any CPU.Build.0 = Automated_Build|Any CPU
 		{511661B9-637D-4519-925F-A6F12E598225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{511661B9-637D-4519-925F-A6F12E598225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511661B9-637D-4519-925F-A6F12E598225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511661B9-637D-4519-925F-A6F12E598225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6289A9-94DF-4827-854E-4D01671187D7}.Automated_Build|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6289A9-94DF-4827-854E-4D01671187D7}.Automated_Build|Any CPU.Build.0 = Release|Any CPU
 		{BB6289A9-94DF-4827-854E-4D01671187D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB6289A9-94DF-4827-854E-4D01671187D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6289A9-94DF-4827-854E-4D01671187D7}.Release|Any CPU.ActiveCfg = Release|Any CPU

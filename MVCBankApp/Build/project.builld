@@ -1,0 +1,9 @@
+1: <!-- Copies the application files to the corresponding directory -->
+  2: <Target Name="DeployApp">
+  3:     <Message Text="Copying application files..." />
+  4:     <ItemGroup>
+  5:         <ApplicationFiles Include="$(ApplicationOutputDirectory)\**\*.*" />
+  6:     </ItemGroup>
+  7:     <Copy SourceFiles="@(ApplicationFiles)" DestinationFolder="$(DestinationPath)\%(RecursiveDir)"/>
+  8: </Target>
+  9:
