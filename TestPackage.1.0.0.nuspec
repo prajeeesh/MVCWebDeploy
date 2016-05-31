@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TestPackage</id>
+        <version>1.0.0</version>
+        <authors>pkottayam</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+    </metadata>
+    <files>
+        <file src="..\..\..\Projects\MVC\Bank\Bank\bin\Release\Bank.dll" target="Bank.dll" />
+        <file src="..\..\..\Projects\MVC\MVCWebDeploy\MVCBankApp\bin\MVCBankApp.dll" target="MVCBankApp.dll" />
+    </files>
+</package>
